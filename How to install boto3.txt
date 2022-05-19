@@ -1,0 +1,8 @@
+How to install BOTO3
+
+#depending on your distribution you will either use "yum" or "apt"
+#In my case I will be using apt
+
+1) sudo apt update
+2) pip install boto3
+3) sudo apt install awscli

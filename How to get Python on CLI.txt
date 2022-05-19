@@ -1,0 +1,30 @@
+                          How to get python on CentOs
+
+
+                               Step 1 - Update
+# sudo yum install gcc openssl-devel bzip2-devel libffi-devel zlib-devel xz-devel
+
+
+
+                          Step 2 – Download Python 3.7
+# cd /usr/src
+# wget https://www.python.org/ftp/python/3.7.11/Python-3.7.11.tgz
+
+Now extract the downloaded package
+# tar xzf Python-3.7.11.tgz
+
+
+
+                           Step 3 – Install Python 3.7
+# cd Python-3.7.11
+# ./configure --enable-optimizations
+# make altinstall 
+
+Now remove downloaded source archive file from your system
+# rm /usr/src/Python-3.7.11.tgz
+
+
+
+
+                        Step 4 – Check Python Version
+# python3.7 -V
