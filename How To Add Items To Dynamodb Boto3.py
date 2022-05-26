@@ -1,6 +1,7 @@
 import boto3
 
 # Adding Movies to the table
+# In this case I will be adding Movies as items to the table
 
 table = boto3.client("dynamodb")
 first = table.put_item(TableName='Movies',
